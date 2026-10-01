@@ -9,7 +9,12 @@ positive/   # Wake-word recordings
 negative/   # Non-wake-word / background recordings
 ```
 
-Current dataset:
+### Dataset
 
-- 778 positive WAV samples
-- negative dataset not added yet
+- **778 positive samples**
+- **Duration:** 1.0 s per sample
+- **Sample rate:** 16 kHz
+- **Channels:** Mono
+- **Format:** WAV, 16-bit PCM
+- **Positive audio:** `positive/`
+- **Negative audio:** `negative/` *(not added yet)*
